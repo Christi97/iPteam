@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ee8011a84f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>iPteam</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content container">
+        <div class="header-content__left container-left">
+          <a class="logo" href="/"><h1>LOGO</h1></a>
+        </div>
+        <div class="header-content__right container-right">
+          <input type="text" id="search" />
+          <p class="group-name">Лидеры Мнений</p>
+          <div class="group-top">
+            <div class="group-photo">
+              <img src="./img/logo.png" alt="group-photo" />
+            </div>
+            <div class="group-arrow"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-content container">
+        <div class="main-left container-left">
+          <div class="group-card">
+            <div class="group-img">
+              <img src="./img/svg/logo.svg" alt="logo" />
+            </div>
+            <div class="group-card__btn">
+              <button class="primary-btn">Заказать рекламу</button>
+            </div>
+          </div>
+          <div class="group-options">
+            <ul class="group-options__list">
+              <li class="group-options__item">
+                <a href="/"><i class="fas fa-list-ul"></i>Список блогеров</a>
+              </li>
+              <li class="group-options__item">
+                <a href="/"><i class="fas fa-coins"></i>Цены блогеров</a>
+              </li>
+              <li class="group-options__item">
+                <a href="/"><i class="far fa-address-card"></i>Об агенстве</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-right container-right">
+          <div class="main-top">
+            <div class="main-info">
+              <h1>Лидеры Мнений</h1>
+              <div class="main-top__chart">
+                <img src="./img/stat.png" alt="" />
+              </div>
+            </div>
+            <div class="main-switch">
+              <div class="main-switch__top">
+                <div class="switch-left"><p>Список блогеров</p></div>
+                <div class="switch-right"><p>Цены блогеров</p></div>
+              </div>
+              <div class="main-switch__bottom">
+                <ul class="switch-social">
+                  <li>
+                    <a href="/"><i class="fab fa-youtube fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href="/"><i class="fab fa-instagram fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href="/"><i class="fab fa-tiktok fa-lg"></i> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="main-bottom">
+            <div class="main-bottom__title"><h3>Список блогеров</h3></div>
+            <div class="card-list" id="card-list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container container">
+        <a class="logo" href="/"><h1>LOGO</h1></a>
+        <ul class="footer-menu">
+          <li><a href="/">Copyright 2020 AllMy Blog</a></li>
+          <li><a href="/">О нас</a></li>
+          <li><a href="/">Политика конфиденциальности</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
