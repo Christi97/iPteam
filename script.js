@@ -1,3 +1,4 @@
+const tabs = document.querySelectorAll(".switch");
 const cardList = document.getElementById("card-list");
 const cardContent = `
   <div class="list-item">
@@ -28,6 +29,17 @@ const cardContent = `
       <button class="primary-btn">Перейти в профиль</button>
     </div>
 </div>`;
+
+function selectTab() {
+  if (this.classList.contains("switch-background")) {
+    return;
+  }
+
+  tabs.forEach((item) => item.classList.remove("switch-background"));
+  this.classList.add("switch-background");
+}
+
+tabs.forEach((item) => item.addEventListener("click", selectTab));
 
 window.addEventListener("load", () => {
   const html = [];

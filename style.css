@@ -215,8 +215,7 @@ header {
   justify-content: space-between;
 }
 
-.switch-left,
-.switch-right {
+.switch {
   width: 50%;
   height: 100%;
   text-align: center;
@@ -227,9 +226,10 @@ header {
   font-weight: bold;
   font-size: 12px;
   line-height: 14px;
+  cursor: pointer;
 }
 
-.switch-left {
+.switch-background {
   background: #cecece;
 }
 
